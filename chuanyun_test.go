@@ -55,7 +55,7 @@ func TestClient_CustomApi(t *testing.T) {
 	schemaCode := "D155554c3d0e079631444918fc8813d21b22d92"
 	t.Log(schemaCode)
 	body := make(map[string]interface{})
-	body["name"] = "蜂电"
+	body["name"] = "测试"
 	body["IsSubmit"] = true
 	body["ActionName"] = "FenQiDaikuan"
 	body["Controller"] = "RongzhiApiController"
